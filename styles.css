@@ -1,3 +1,6 @@
+body {
+	background-color: cornflowerblue;
+}
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	color: darkred;
@@ -17,6 +20,12 @@ p,ul {
 #smiley-face {
 	font-size: 5em;
 }
+#list {
+	font-style: italic;
+}
 ul {
 	list-style-type: square;
+}
+li {
+	padding-left: 16px;
 }
