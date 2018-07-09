@@ -1,0 +1,16 @@
+#firstDiv {
+	margin-left: 10em;
+	margin-top: 10em;
+}
+#secondDiv {
+	margin-left: 5%;
+	margin-top: 5%;
+}
+#smiley {
+	height: 40px;
+	width: 40px;
+
+}
+#smiley-face {
+	font-size: 5em;
+}
