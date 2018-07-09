@@ -1,3 +1,11 @@
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkred;
+}
+p,ul {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+}
 #firstDiv {
 	margin-left: 10em;
 	margin-top: 10em;
@@ -6,11 +14,9 @@
 	margin-left: 5%;
 	margin-top: 5%;
 }
-#smiley {
-	height: 40px;
-	width: 40px;
-
-}
 #smiley-face {
 	font-size: 5em;
+}
+ul {
+	list-style-type: square;
 }
