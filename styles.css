@@ -1,31 +1,56 @@
 body {
 	background-color: #B3B3FF;
+	background-image: url('https://images.unsplash.com/photo-1413752362258-7af2a667b590?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=03f1fbd57c8826b618bb075c4233d434&auto=format&fit=crop&w=500&q=60');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
-	color: darkred;
+	color: ghostwhite;
+	text-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
 }
+
+p {
+	color: floralwhite;
+}
+
 p,ul {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.2em;
 }
-#firstDiv {
-	margin-left: 10em;
-	margin-top: 10em;
+
+.image {
+	width: 200px;
+	height: auto;
+	display: inline-block;
+	position: relative;
+	top: 30%;
+	left: 15%;
 }
-#secondDiv {
-	margin-left: 10%;
-	margin-top: 10%;
+
+.center {
+	display: inline-block;
+	position: relative;
+	width: 75%;
+	margin: auto 12.5%;
+	text-align: center;
 }
-#smiley-face {
-	font-size: 4em;
+
+.fa-flushed {
+	font-size: 2em;
+	padding: 5px;
 }
-#list {
+.list {
 	font-style: italic;
 }
 ul {
-	list-style-type: square;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 3rem;
 }
 li {
 	padding-left: 16px;
+	font-weight: initial;
+	font-size: 1.5rem;
 }
